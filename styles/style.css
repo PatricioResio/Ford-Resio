@@ -1,0 +1,257 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: #96b3ff; 
+    font-family:sans-serif;
+    marker: none;
+}
+
+.grid-header-index {
+    display: grid;
+    grid-template-areas: "logo-header nav nav nav nav";
+    
+}
+header {
+    background-color: #96b3ff;
+    height: 100px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+header nav {
+    
+    height: 100px;
+    width: 1150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+        
+}
+nav {
+    margin-left: 50px;
+    margin-right: 50px; 
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #96b3ff;
+    text-decoration: none;
+}
+.header-ul {
+    grid-area: nav;
+    margin-left: 50px;
+    margin-right: 50px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+}
+.navbar {
+    width: 100%;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #00002e;
+    font-size: xx-large;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.grid-body-index {
+display: grid;
+width: auto;
+height: auto;
+
+grid-template-areas: "logo-header nav nav nav"
+                    "main main main main"
+                    "main main main main"
+                    "footer footer footer footer";
+}
+
+
+.grid-main-index {
+    display: grid;
+    grid-template-areas: "none none h1 none none"
+                         "none none imagen-index none none"
+                         "text text text text text text";
+    grid-area: main;
+}
+.imagen-index {
+    display: grid;
+    grid-area: imagen-index;
+
+}
+
+.logo-header {
+    display: inline;
+    width: 240px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    
+}
+#pie {
+    text-decoration: none;
+    background-color: #96b3ff;
+    height: 100px;
+    width: 100%;
+    display: grid;
+    grid-template-areas: "pie_div" "none" "none" "pie_ul";
+    grid-area: footer;
+}
+.pie_a {
+    background-color:#96b3ff;
+    max-height: auto;
+    max-width: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.pie_ul {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+/*Index*/
+main {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 50px;
+    font-size: larger;
+    border: solid black;
+    display: inline-block;
+}
+
+main div {
+    margin: 30px;
+    font-size: x-large;
+    
+}
+
+main div img {
+    width: 400px;
+    height: 250px;
+}
+h1 {
+    font-size: x-large;
+    margin: 50px 20px 0px 20px;
+    text-align: center;
+    display: block;
+}
+
+/*--Posventa--*/
+article.posventa {
+    text-align: center;
+}
+.fieldset-posventa {
+    align-items:center
+}
+.textarea-posventa {
+    height: 100px;
+    width: 100px;
+}
+.main-posventa {
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+    padding: 25px;
+    margin: 15px;
+}
+
+.h1-posventa {
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    padding: 15px;
+}
+
+/*--Vehiculos--*/
+main div {
+    display: block;
+}
+.section-vehiculos {
+    display: grid;
+    margin: 50px;
+    text-align: center;
+    border: #00002e solid;
+    height: 100%;
+
+}
+.h1-vehiculos {
+    display: grid;
+    text-align: center;
+    font-size: xx-large;
+    margin: 20px;
+    padding: 5px;
+
+}
+.main-vehiculos {
+    display: grid;
+    grid-template-areas:   
+     "h1-vehiuculos"
+           
+     "img"
+     
+     "p.vehiculos1 p.vehiculos2 p.vehiculos3"
+      
+     "img"
+     
+     "p.vehiculos4 p.vehiculos5 p.vehiculos6";
+
+    font-size: large;
+    padding: 25px;
+    margin: 15px;
+    border: none;
+}
+.p-vehiculos {
+    border: #00002e solid;
+    display: grid;
+    grid-area: text;
+}
+
+.h2-vehiculos {
+    text-align: center;
+    font-size: x-large;
+    align-items: center;
+}
+/*--Planes--*/
+.article-planes {
+    text-align: center;
+    align-items: center;
+
+}
+.fieldset-planes {
+    text-align: center;
+    align-items: center;
+}
+.h1-planes {
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    padding: 15px;
+}
+.main-planes {
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+    padding: 25px;
+    margin: 15px;
+}
+/*sucursales*/
+.main-sucursales {
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+    padding: 25px;
+    margin: 20px;
+}
+.h1-sucursales {
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    padding: 15px;
+}
